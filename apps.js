@@ -14,5 +14,6 @@ window.JUS_APPS = [
  {id:'watch',name:'Jus Watch',category:'Media',description:'Watch your videos in one place.',url:'https://juszeeshan.github.io/jus-Watch/',version:'1.0.0',icon:'🎬',color:'#c0392b'},
  {id:'g-drive',name:'Jus Drive',category:'Utilities',description:'View files from your Google Drive accounts.',url:'https://juszeeshan.github.io/jus-g-drive/',version:'1.0.0',icon:'☁️',color:'#3b82c4'},
  {id:'insta-vault',name:'Jus Insta Vault',category:'Utilities',description:'Your saved Instagram content vault.',url:'https://juszeeshan.github.io/jus-Insta-vault/',version:'1.0.0',icon:'📸',color:'#c13584'},
- {id:'downloader',name:'Jus Downloader',category:'Utilities',description:'Download and save content.',url:'https://juszeeshan.github.io/jus-Downloader/',version:'1.0.0',icon:'⬇️',color:'#2e9e6b'}
+ {id:'downloader',name:'Jus Downloader',category:'Utilities',description:'Download and save content.',url:'https://juszeeshan.github.io/jus-Downloader/',version:'1.0.0',icon:'⬇️',color:'#2e9e6b'},
+ {id:'house-plan',name:'Jus House Plan',category:'Design',description:'Create 2D and 3D floor plans with interior design.',url:'https://juszeeshan.github.io/jus-house-plan/',version:'1.0.0',icon:'🏠',color:'#b5651d'},
 ];
