@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" data-theme="solar">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffd900"><title>Jus Store</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
+</head><body>
+<div class="app-shell">
+<header class="topbar"><button id="menuBtn" class="icon-btn" aria-label="Open menu">☰</button><div class="brand"><span class="brand-mark">JS</span><div><strong>Jus Store</strong><small>Your apps, all in one place</small></div></div><button id="profileBtn" class="icon-btn" title="Settings">⚙</button></header>
+<aside id="drawer" class="drawer"><div class="drawer-head"><span class="brand-mark">JS</span><div><strong>Jus Store</strong><small>Personal app marketplace</small></div><button id="closeDrawer" class="icon-btn">×</button></div><nav><button data-view="home" class="nav-item active">⌂ <span>Home</span></button><button data-view="apps" class="nav-item">▦ <span>All apps</span></button><button data-view="favorites" class="nav-item">♡ <span>Favorites</span></button><button data-view="categories" class="nav-item">☷ <span>Categories</span></button><button data-view="settings" class="nav-item">⚙ <span>Settings & themes</span></button></nav><div class="drawer-foot">Jus Store · v1.0</div></aside><div id="scrim"></div>
+<main id="main"><section class="welcome"><div><p class="eyebrow">YOUR APP COLLECTION</p><h1 id="welcomeTitle">Discover your apps.</h1><p class="sub" id="welcomeSub">Your projects, organized in one place.</p></div><div class="welcome-orb">✦</div></section>
+<div class="search-wrap"><span>⌕</span><input id="search" placeholder="Search apps, categories..." autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
+<div class="section-head"><h2 id="sectionTitle">Featured apps</h2><button id="viewAll" class="text-btn">View all →</button></div><div id="featured" class="featured"></div>
+<div class="section-head"><h2 id="allTitle">Your apps</h2><button id="sortBtn" class="text-btn">A–Z ↕</button></div><div id="appGrid" class="app-grid"></div><div id="empty" class="empty" hidden>No apps match your search.</div>
+</main><footer class="bottom-nav"><button data-view="home" class="active"><span>⌂</span>Home</button><button data-view="apps"><span>▦</span>Apps</button><button data-view="favorites"><span>♡</span>Favorites</button><button data-view="settings"><span>⚙</span>Settings</button></footer>
+</div><script src="apps.js"></script><script src="store.js"></script>
+</body></html>
